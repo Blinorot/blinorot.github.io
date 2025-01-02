@@ -1,115 +1,35 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{grinberg2025what,
+  title={{What Does an Audio Deepfake Detector Focus on? A Study in the Time Domain}},
+  author={Petr Grinberg and Kumar, Ankur and Koppisetti, Surya and Bharaj, Gaurav},
+  booktitle={ICASSP 2025 (Accepted) IEEE international conference on acoustics, speech and signal processing (ICASSP)},
+  year={2025},
+  organization={IEEE},
+  abbr = {ICASSP},
+  selected = {true},
+  bibtex_show = {true},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{grinberg2023rawspectrogram,
+  title     = {{RawSpectrogram: On the Way to Effective Streaming Speech Anti-spoofing}},
+  author    = {Petr Grinberg and Vladislav Shikhov},
+  journal = {IEEE Access},
+  year = {2023},
+  publisher = {IEEE},
+  doi = {10.1109/ACCESS.2023.3321919},
+  abbr = {IEEE Access},
+  abstract = {Traditional anti-spoofing systems cannot be used straightforwardly with streaming audio because they are designed for finite utterances. Such offline models can be applied in streaming with the help of buffering; however, they are not effective in terms of memory and computational consumption. We propose a novel approach called RawSpectrogram that makes offline models streaming-friendly without a significant drop in quality. The method was tested on RawNet2 and AASIST, resulting in new architectures called RawRNN (RawLSTM and RawGRU), RS-AASIST, and TAASIST. The RawRNN-type models are much smaller and achieve a better Equal Error Rate than their base architecture, RawNet2. RS-AASIST and TAASIST have fewer parameters than AASIST and achieve similar quality. We also proved our concept for models with time-frequency transform front-ends and automatic speaker verification systems by proposing RECAPA-TDNN based on ECAPA-TDNN. RS-AASIST and RECAPA-TDNN were combined into the first streaming-friendly spoofing-aware speaker verification system reported in the literature. This joint system achieves significantly better quality than the corresponding offline solutions. All our models require far fewer floating-point operations for score updates. RawSpectrogram usage significantly reduces the latency of the prediction and allows the system to update the probability with each new chunk from the stream, preserving all information from the past. To the best of our knowledge, TAASIST is the most successful voice anti-spoofing system that employs a vanilla Transformer trained using supervised learning.},
+  bibtex_show = {true},
+  selected = {true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{grinberg2022comparative,
+  title     = {{A Comparative Study of Fusion Methods for SASV Challenge 2022}},
+  author    = {Petr Grinberg and Vladislav Shikhov},
+  journal = {arXiv preprint arXiv:2203.16970},
+  year = {2022},
+  doi = {10.48550/arXiv.2203.16970},
+  abbr = {arXiv},
+  abstract = {Automatic Speaker Verification (ASV) system is a type of bio-metric authentication. It can be attacked by an intruder, who falsifies data in order to get access to protected information. Countermeasures (CM) are special algorithms that detect these spoofing-attacks. While the ASVspoof Challenge series were focused on the development of CM for fixed ASV system, the new Spoofing Aware Speaker Verification (SASV) Challenge organizers believe that best results can be achieved if CM and ASV systems are optimized jointly. One of the approaches for cooperative optimization is a fusion over embeddings or scores obtained from ASV and CM models. The baselines of SASV Challenge 2022 present two types of fusion: score-sum and back-end ensemble with a 3-layer MLP. This paper describes our research of other fusion methods, including boosting over embeddings, which has not been used in anti-spoofing studies before.},
+  bibtex_show = {true},
+  selected = {true},
 }
