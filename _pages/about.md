@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Master's student at EPFL, Switzerland. I work on various applications of deep learning with a primary focus on voice deepfake detection. My latest research aimed at contributing to the insufficiently-explored valuable fields, including the explainability of biometric systems and their usage in streaming.
+I am a Master's student at [EPFL](https://www.epfl.ch/), Switzerland. I work on various applications of deep learning with a primary focus on voice deepfake detection. My latest research aimed at contributing to the insufficiently-explored valuable fields, including the explainability of biometric systems and their usage in streaming.
 
-Currently, I am doing an internship at Reality Defender, USA. Besides, I am a visiting teacher at HSE, Russia and a member of LauzHack, EPFL teaching/organization team. I have also worked at Samsung R&D Institute, Russia for 2.5 years as an assistant in the Biometric Solutions Laboratory.
+Currently, I am doing an internship at Reality Defender, USA. Besides, I am a visiting teacher at [HSE](https://www.hse.ru/en/), Russia and a member of [LauzHack](https://lauzhack.com/), EPFL teaching/organization team. I have also worked at Samsung R&D Institute, Russia for 2.5 years as an assistant in the Biometric Solutions Laboratory.

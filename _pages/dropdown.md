@@ -14,6 +14,6 @@ children:
   - title: publications
     permalink: /publications/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  # - title: blog
+  #   permalink: /blog/
 ---
