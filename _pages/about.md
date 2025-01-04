@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: MSc at EPFL. BSc at HSE. <a href='mailto:petr.grinberg@epfl.ch'>petr.grinberg@epfl.ch</a>.
 

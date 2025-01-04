@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: The description of the projects I've done.
 nav: true
 nav_order: 3
-display_categories: [Courseworks, University Projects]
+display_categories: [Work, Courseworks, University Projects]
 horizontal: false
 ---
 
