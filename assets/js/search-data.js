@@ -461,6 +461,11 @@ ninja.data = [{
           description: "The project aims on the development of an audio-visual deepfake detection system.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/supervision_25_ilya/";
+            },},{id: "projects-creation-of-audio-effects-using-deep-learning",
+          title: 'Creation of Audio Effects Using Deep Learning',
+          description: "The project explores the creation of audio effects using deep learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/supervision_25_ivan/";
             },},{id: "projects-reproducibility-of-synthetic-speech-detection-systems",
           title: 'Reproducibility of Synthetic Speech Detection Systems',
           description: "The project aims on supporting research community by reproducing ADD papers without open-source code.",
