@@ -1,0 +1,34 @@
+[
+  {
+    "method": "R-Learned",
+    "27.599227.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_random_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/27.599227.6s.wav",
+    "33.1336433.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_random_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/33.1336433.6s.wav",
+    "43.175043.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_random_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/43.175043.6s.wav",
+    "46.5346.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_random_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/46.5346.6s.wav",
+    "56.76656.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_random_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/56.76656.6s.wav"
+  },
+  {
+    "method": "Learned",
+    "27.599227.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/27.599227.6s.wav",
+    "33.1336433.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/33.1336433.6s.wav",
+    "43.175043.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/43.175043.6s.wav",
+    "46.5346.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/46.5346.6s.wav",
+    "56.76656.6s": "/assets/LenslessMic/songdescriber/test/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/56.76656.6s.wav"
+  },
+  {
+    "method": "Codec",
+    "27.599227.6s": "/assets/LenslessMic/songdescriber/test/original/32x32_120_16khz_original/codec_audio/27.599227.6s.wav",
+    "33.1336433.6s": "/assets/LenslessMic/songdescriber/test/original/32x32_120_16khz_original/codec_audio/33.1336433.6s.wav",
+    "43.175043.6s": "/assets/LenslessMic/songdescriber/test/original/32x32_120_16khz_original/codec_audio/43.175043.6s.wav",
+    "46.5346.6s": "/assets/LenslessMic/songdescriber/test/original/32x32_120_16khz_original/codec_audio/46.5346.6s.wav",
+    "56.76656.6s": "/assets/LenslessMic/songdescriber/test/original/32x32_120_16khz_original/codec_audio/56.76656.6s.wav"
+  },
+  {
+    "method": "Ground-Truth",
+    "27.599227.6s": "/assets/LenslessMic/songdescriber/test/original/audio/27.599227.6s.wav",
+    "33.1336433.6s": "/assets/LenslessMic/songdescriber/test/original/audio/33.1336433.6s.wav",
+    "43.175043.6s": "/assets/LenslessMic/songdescriber/test/original/audio/43.175043.6s.wav",
+    "46.5346.6s": "/assets/LenslessMic/songdescriber/test/original/audio/46.5346.6s.wav",
+    "56.76656.6s": "/assets/LenslessMic/songdescriber/test/original/audio/56.76656.6s.wav"
+  }
+]
