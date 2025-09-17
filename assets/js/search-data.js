@@ -391,7 +391,12 @@ ninja.data = [{
     },{id: "news-our-latest-paper-on-the-explainability-of-audio-deepfake-detection-systems-is-accepted-to-icassp-2025",
           title: 'Our latest paper on the explainability of Audio Deepfake Detection Systems is accepted...',
           description: "",
-          section: "News",},{id: "projects-audio-deepfake-detection-systems",
+          section: "News",},{id: "projects-lenslessmic",
+          title: 'LenslessMic',
+          description: "Audio Encryption and Authentication via Lensless Computational Imaging -- Official Demo Page.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LenslessMic/";
+            },},{id: "projects-audio-deepfake-detection-systems",
           title: 'Audio Deepfake Detection Systems',
           description: "Reproduction of state-of-the-art audio deepfake detection systems, including LCNN, RawNet2, and AASIST.",
           section: "Projects",handler: () => {
