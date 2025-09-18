@@ -370,7 +370,7 @@ Below we provide the examples of a video representation of audio obtained using 
     Example of a lensed video (audio-to-video conversion), a corresponding lensless measurement, and its reconstruction. Audio track: 237-126133-0018.
 </div>
 
-We note that *NoPSF* often provides smoother frames than *Learned* and *R-Learned* that are more sharp. This means that *NoPSF* is not able to fully recover image from the multiplexing effect of lensless camera. *ADMM-100* completely fails recover frames.
+We note that *NoPSF* often provides smoother frames than *Learned* and *R-Learned* that are more sharp. This means that *NoPSF* is not able to fully recover image from the multiplexing effect of lensless camera. *ADMM-100* completely fails to recover frames.
 
 The video below shows how reconstruction of the same frame enhances from $$W=0\%$$ to $$W=100\%$$. More specifically, we plot $$l_2$$-difference $$(\hat{x}-x)^2$$ between the reconstructed and codec frames.
 
@@ -386,11 +386,13 @@ The video below shows how reconstruction of the same frame enhances from $$W=0\%
 
 ## Extra Experiments
 
-We provide two additional experiments:
+We provide three additional experiments:
 
 1. In the paper, we noted that the search space for brute-force attack can also be restricted by the RVQ of the codec. With $$C=12$$ codebooks of size $$1024$$ this leads to $$2^{120}$$ possible codebook outputs. This is not an issue because the intruder will need to do it for all $$T_E$$ frames, which leads to a search space of $$2^{120T_E}$$. However, to be sure, one may fine-tune/train a neural audio codec to have a larger search space. We [fine-tuned](https://github.com/Blinorot/descript-audio-codec/blob/main/conf/custom/16x16_130_16khz.yml) DAC on the full Librispeech corpus with $$C=13$$ codebooks of size $$1024$$ (i.e. search space of $$2^{130}$$) and $$16\times16$$ latent representation. The decreased size of the latent representation allows to get even higher quality of reconstruction. We collected *train-clean* and *test-clean* variants for this codec.
 
 2. We showed that the method is applicable on different types of audio. However, it is also important to generalize to different environments and conditions. Even though DAC itself works on both clean and noisy speech, training only on *train-clean* can overfit the reconstruction algorithm on clean data. To account for this, we collected a small subset of $$150$$ audio files from Librispeech *train-other* (see Tab 1. in the paper). We fine-tuned *Learned* ($$g=1$$) system on a mix of *train-other* and *train-clean* datasets with constant learning rate of $$2\cdot 10^{-5}$$ for $$15$$ K steps. We refer to this system as *FT-Learned*. (Remark: fine-tuning only on *train-other* leads to drop in performance on clean data, i.e., catastrophic forgetting phenomenon, so we use a mixture).
+
+3. (Only models, no tables). We investigated different loss functions. Our final combination $$\mathcal{L}_{\text{raw}, \text{SSIM}} + \mathcal{L}_{\text{SSIM}} + \mathcal{L}_{\text{MSE}}$$ performs the best. Having only $$\mathcal{L}_{\text{MSE}}$$ leads to poor convergence and suboptimal quality, showcasing the importance of the structure-based losses. Adding $$\mathcal{L}_{\text{SSIM}}$$ to MSE helps a lot, however, having the third term $$\mathcal{L}_{\text{raw, SSIM}}$$ further improves the quality. We investigated audio-based losses, such as $$l_1$$-distance between the waveforms or Mel spectrograms of codec and reconstructed audio, however, it had negative effect on the performance. We provide corresponding checkpoints on our [Huggingface Collection](https://huggingface.co/collections/Blinorot/lenslessmic-68caf4f8ff7fa56c2dac8540).
 
 The results are provided below.
 
