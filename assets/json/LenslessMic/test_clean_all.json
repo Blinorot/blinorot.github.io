@@ -9,7 +9,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_admm100_with_args/audio/8455-210777-0042.wav"
   },
   {
-    "method": "No-PSF",
+    "method": "NoPSF",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_Unet8M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_Unet8M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_Unet8M/audio/5105-28241-0013.wav",
@@ -34,6 +34,15 @@
     "5142-33396-0062": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5142-33396-0062.wav",
     "7127-75947-0032": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/7127-75947-0032.wav",
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
+  },
+  {
+    "method": "Learned (Fixed min-max)",
+    "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_minmax/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
+    "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_minmax/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
+    "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_minmax/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
+    "5142-33396-0062": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_minmax/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5142-33396-0062.wav",
+    "7127-75947-0032": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_minmax/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/7127-75947-0032.wav",
+    "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_minmax/32x32_librispeech_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
     "method": "Codec",

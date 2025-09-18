@@ -1,6 +1,6 @@
 [
   {
-    "method": "g=2, W=0",
+    "method": "g=2, W=0, K=0",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_0/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_0/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_0/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -9,7 +9,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_0/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=4",
+    "method": "g=2, W=4, K=156",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_4/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_4/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_4/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -18,7 +18,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_4/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=7",
+    "method": "g=2, W=7, K=272",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_7/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_7/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_7/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -27,7 +27,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_7/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=10",
+    "method": "g=2, W=10, K=389",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_10/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_10/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_10/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -36,7 +36,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_10/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=15",
+    "method": "g=2, W=15, K=583",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_15/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_15/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_15/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -45,7 +45,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_15/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=20",
+    "method": "g=2, W=20, K=778",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_20/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_20/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_20/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -54,7 +54,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_20/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=25",
+    "method": "g=2, W=25, K=972",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_25/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_25/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_25/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -63,7 +63,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_25/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=30",
+    "method": "g=2, W=30, K=1166",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_30/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_30/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_30/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -72,7 +72,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_30/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=35",
+    "method": "g=2, W=35, K=1361",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_35/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_35/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_35/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -81,7 +81,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_35/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=40",
+    "method": "g=2, W=40, K=1555",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_40/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_40/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_40/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -90,7 +90,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_40/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=45",
+    "method": "g=2, W=45, K=1750",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_45/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_45/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_45/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -99,7 +99,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_45/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=50",
+    "method": "g=2, W=50, K=1944",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_50/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_50/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_50/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -108,7 +108,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_50/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=55",
+    "method": "g=2, W=55, K=2138",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_55/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_55/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_55/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -117,7 +117,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_55/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=60",
+    "method": "g=2, W=60, K=2333",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_60/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_60/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_60/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -126,7 +126,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_60/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=65",
+    "method": "g=2, W=65, K=2527",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_65/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_65/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_65/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -135,7 +135,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_65/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=70",
+    "method": "g=2, W=70, K=2722",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_70/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_70/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_70/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -144,7 +144,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_70/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=75",
+    "method": "g=2, W=75, K=2916",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_75/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_75/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_75/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -153,7 +153,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_75/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=80",
+    "method": "g=2, W=80, K=3110",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_80/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_80/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_80/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -162,7 +162,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_80/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=85",
+    "method": "g=2, W=85, K=3305",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_85/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_85/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_85/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -171,7 +171,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_85/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=90",
+    "method": "g=2, W=90, K=3499",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_90/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_90/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_90/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -180,7 +180,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_90/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=95",
+    "method": "g=2, W=95, K=3694",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_95/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_95/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_95/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
@@ -189,7 +189,7 @@
     "8455-210777-0042": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_95/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/8455-210777-0042.wav"
   },
   {
-    "method": "g=2, W=100",
+    "method": "g=2, W=100, K=3888",
     "237-126133-0018": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_100/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/237-126133-0018.wav",
     "4446-2273-0026": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_100/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/4446-2273-0026.wav",
     "5105-28241-0013": "/assets/LenslessMic/librispeech/test-clean/reconstructed/test_psf_error_100/32x32_librispeech_group_2_2_0_0_mse_ssim_raw_ssim_PSF_Unet4M_U5_Unet4M/audio/5105-28241-0013.wav",
