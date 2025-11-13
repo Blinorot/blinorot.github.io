@@ -3,7 +3,7 @@ layout: page
 title: HiFi-VC
 description: Reproduction of a state-of-the-art voice conversion system.
 img:
-importance: 2
+importance: 3
 category: Work
 ---
 

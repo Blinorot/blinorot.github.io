@@ -17,6 +17,6 @@ category: LauzHack (EPFL)
 
 Since 2016, [LauzHack](https://lauzhack.com/) has organized hackathons at EPFL in Lausanne, Switzerland. We also organize tech talks during the school year.
 
-I joined the team in May 2024. I enhanced our [Python-Dev-Tips](https://github.com/ebezzam/python-dev-tips) workshop by adding more information about [Hydra](https://hydra.cc/docs/intro/)-based configuration. This Fall, I gave a workshop about the development of an [intelligent voice assistant](https://github.com/Blinorot/AudioBot) using LLMs and ASR/TTS models.
+I joined the team in May 2024. I enhanced our [Python-Dev-Tips](https://github.com/ebezzam/python-dev-tips) workshop by adding more information about [Hydra](https://hydra.cc/docs/intro/)-based configuration. In Fall 2024, I gave a workshop about the development of an [intelligent voice assistant](https://github.com/Blinorot/AudioBot) using LLMs and ASR/TTS models.
 
 I also provide assistance with the organization of other workshops, record them and upload on YouTube.

@@ -3,7 +3,7 @@ layout: page
 title: Audio Deepfake Detection Systems
 description: Reproduction of state-of-the-art audio deepfake detection systems, including LCNN, RawNet2, and AASIST.
 img:
-importance: 3
+importance: 4
 category: Work
 ---
 
