@@ -409,6 +409,11 @@ ninja.data = [{
           description: "Implementation of a LSTM-based automatic speech recognition system and DeepSpeech 2.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/project_asr/";
+            },},{id: "projects-audiobot",
+          title: 'AudioBot',
+          description: "An intelligent voice assistant using ASR, LLM, and TTS systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project_audiobot/";
             },},{id: "projects-audio-visual-speech-separation-and-recognition",
           title: 'Audio-Visual Speech Separation and Recognition',
           description: "The project aims on the development of an Audio-Visual Speech Separation and Recognition (AVSSR) system for edge devices.",
