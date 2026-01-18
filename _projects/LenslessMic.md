@@ -34,7 +34,7 @@ toc:
   </a>
 
   <!-- arXiv -->
-  <a class="btn btn-danger" href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank" rel="noopener">
+  <a class="btn btn-danger" href="https://arxiv.org/abs/2509.16418" target="_blank" rel="noopener">
     <i class="ai ai-arxiv"></i> arXiv
   </a>
 
