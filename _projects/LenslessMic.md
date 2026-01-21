@@ -81,7 +81,7 @@ All models and train/test datasets are published on [Huggingface Collection](htt
 * *Learned*: a trainable reconstruction algorithm based on [Unrolled ADMM](https://arxiv.org/abs/1908.11502). Uses [DRUNet](https://arxiv.org/abs/2008.13751)-based pre/post processors (3.9/4.1M parameters) and psf corrector (128K parameters) to account for noise and model mismatch (8.1M parameters total). Trained on *train-clean* set.
 * *R-Learned*: the same as *Learned* but trained on *train-random*.
 * *NoPSF*: a trainable reconstruction algorithm that uses only (codec representation, lensless measurement) pairs for training and **does not use PSF in any way**. Based on DRUNet with 8.1M parameters. Trained on *train-clean* set.
-* *ADMM-100*: vanilla reconstruction algorithm that uses [Alternating Direction Method of Multipliers](https://arxiv.org/abs/1710.02134) with 100 iterations.
+* *ADMM-100*: vanilla reconstruction algorithm that uses [Alternating Direction Method of Multipliers](https://arxiv.org/abs/1710.02134) with 100 iterations. Penalty parameters are set to $\mu_1=10^{-4}$, $\mu_2=10^{-4}$, $\mu_3=10^{-4}$ and the weight of the regularization is $\tau=2\cdot 10^{-4}$.
 
 ### Audio Reconstruction
 <script>
