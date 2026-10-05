@@ -1,13 +1,30 @@
-@article{grinberg2025lenslessmic,
-  title={LenslessMic: Audio Encryption and Authentication via Lensless Computational Imaging},
-  author={Grinberg, Petr and Bezzam, Eric and Prandoni, Paolo and Vetterli, Martin},
-  journal={arXiv preprint arXiv:2509.16418},
-  year={2025},
+@inproceedings{grinberg2026alarm,
+  title     = {{ALARM: Audio–Language Alignment for Reasoning Models}},
+  author    = {Petr Grinberg and Hassan Shahmohammadi},
+  year      = {2026},
+  booktitle = {{Interspeech 2026 [Long Track]}},
+  pages     = {367--376},
+  doi       = {10.21437/Interspeech.2026-759},
+  issn      = {2958-1796},
+  abstract = {Large audio language models (ALMs) extend LLMs with auditory understanding. A common approach freezes the LLM and trains only an adapter on self-generated targets. However, this fails for reasoning LLMs (RLMs) whose built-in chain-of-thought traces expose the textual surrogate input, yielding unnatural responses. We propose self-rephrasing, converting self-generated responses into audio-understanding variants compatible with RLMs while preserving distributional alignment. We further fuse and compress multiple audio encoders for stronger representations. For training, we construct a 6M-instance multi-task corpus (2.5M unique prompts) spanning 19K hours of speech, music, and sound. Our 4B-parameter ALM outperforms similarly sized models and surpasses most larger ALMs on related audio-reasoning benchmarks, while preserving textual capabilities with a low training cost. Notably, we achieve the best open-source result on the MMAU-speech and MMSU benchmarks and rank third among all the models.},
   selected = {true},
   bibtex_show = {true},
-  arxiv = {2509.16418},
-  abbr = {arXiv},
-  abstract = {With society's increasing reliance on digital data sharing, the protection of sensitive information has become critical. Encryption serves as one of the privacy-preserving methods; however, its realization in the audio domain predominantly relies on signal processing or software methods embedded into hardware. In this paper, we introduce LenslessMic, a hybrid optical hardware-based encryption method that utilizes a lensless camera as a physical layer of security applicable to multiple types of audio. We show that LenslessMic enables (1) robust authentication of audio recordings and (2) encryption strength that can rival the search space of 256-bit digital standards, while maintaining high-quality signals and minimal loss of content information. The approach is validated with a low-cost Raspberry Pi prototype and is open-sourced together with datasets to facilitate research in the area.}
+  abbr = {Interspeech},
+  arxiv = {2603.09556}
+}
+
+@inproceedings{grinberg2026lenslessmic,
+  title={LenslessMic: Audio Encryption and Authentication via Lensless Computational Imaging},
+  author={Grinberg, Petr and Bezzam, Eric and Prandoni, Paolo and Vetterli, Martin},
+  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={15752--15756},
+  year={2026},
+  organization={IEEE},
+  abstract = {With society's increasing reliance on digital data sharing, the protection of sensitive information has become critical. Encryption serves as one of the privacy-preserving methods; however, its realization in the audio domain predominantly relies on signal processing or software methods embedded into hardware. In this paper, we introduce LenslessMic, a hybrid optical hardware-based encryption method that utilizes a lensless camera as a physical layer of security applicable to multiple types of audio. We show that LenslessMic enables (1) robust authentication of audio recordings and (2) encryption strength that can rival the search space of 256-bit digital standards, while maintaining high-quality signals and minimal loss of content information. The approach is validated with a low-cost Raspberry Pi prototype and is open-sourced together with datasets to facilitate research in the area.},
+  selected = {true},
+  bibtex_show = {true},
+  abbr = {ICASSP},
+  arxiv = {2509.16418}
 }
 
 @inproceedings{grinberg2025data,

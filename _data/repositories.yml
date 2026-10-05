@@ -6,7 +6,7 @@ repo_description_lines_max: 2
 github_repos:
   - markovka17/dla
   - Blinorot/pytorch_project_template
-  - LauzHack/deep-learning-bootcamp
-  - ebezzam/python-dev-tips
-  - Blinorot/AudioBot
+  - Blinorot/ALARM
   - Blinorot/LenslessMic
+  - LauzHack/deep-learning-bootcamp
+  - Blinorot/deep-learning-research
